@@ -10,8 +10,8 @@ ignore:
 
 output-format: grouped
 
-test-warnings: true
-doc-warnings: true
+#test-warnings: true
+#doc-warnings: true
 
 autodetect: false
 
@@ -41,6 +41,7 @@ pylint:
         # Used builtin function 'filter'.
         # (For maintainability, one should prefer list comprehension.)
         - W0141
+        - invalid-name
 
 
 # prospector --profile .prospector.yaml
