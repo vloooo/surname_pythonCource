@@ -14,7 +14,7 @@ def test_factorial():
     assert factorial(10) == 3628800
 
 def test_is_even_or_odd():
-    assert is_even_or_odd(4) == "Evenl"
+    assert is_even_or_odd(4) == "Even"
     assert is_even_or_odd(7) == "Odd"
     assert is_even_or_odd(0) == "Even"
     assert is_even_or_odd(-3) == "Odd"
